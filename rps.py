@@ -74,4 +74,6 @@ else:
 
 print ('{} scored: {}    {} scored: {}'.format(player1_name,p1,player2_name, p2))
 print message
+print ("Thanks for playing!!")
+
 
