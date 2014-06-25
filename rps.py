@@ -51,6 +51,9 @@ counter = 0
 p1 = 0
 p2 = 0
 
+player1_name = raw_input("Enter player 1 name: ")
+player2_name = raw_input("Enter player 2 name: ")
+
 ## Calls Game 3 times
 while counter != 3:
   choice1 = choice()
@@ -69,6 +72,6 @@ elif p2 > p1:
 else:
     message = 'It is a TIE!'
 
-print ('Player 1 scored: {}    Player 2 scored: {}'.format(p1, p2))
+print ('{} scored: {}    {} scored: {}'.format(player1_name,p1,player2_name, p2))
 print message
 
